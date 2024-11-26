@@ -48,10 +48,10 @@ def get_article(folder_name:str):
                 all_articles = pd.concat([all_articles, article_df], ignore_index=True)
     # print(all_articles)
     return all_articles
-raw_articles = get_article("ai_news_json").loc[:, "content"]
+raw_articles = get_article("SummaryChatbot/ai_news_json").loc[:, "content"]
 raw_retriever = get_retriever('\n\n'.join(raw_articles))
 
-summerized_articles = get_article("summerized_news_json").loc[:, "content"]
+summerized_articles = get_article("SummaryChatbot/summerized_news_json").loc[:, "content"]
 summerized_retriever = get_retriever('\n\n'.join(summerized_articles))
 
 # 모델 초기화

@@ -7,8 +7,8 @@ load_dotenv()
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
 from langchain_openai import ChatOpenAI
 
-folder_path = "ai_news_json"
-new_path = "summerized_news_json"
+folder_path = "SummaryChatbot/ai_news_json"
+new_path = "SummaryChatbot/summerized_news_json"
 # all_articles = pd.DataFrame()
 
 model = ChatOpenAI(temperature=0, model="gpt-4o-mini", api_key=os.environ['OPENAI_API_KEY'])

@@ -109,11 +109,11 @@ def main():
     print(f"\n총 {len(url_results)}개의 AI 기사를 수집했습니다.")
     # 데이터 저장
 
-    if not os.path.exists("ai_news_json"):
-        os.makedirs("ai_news_json")
+    article_path = "SummaryChatbot/ai_news_json"
+    if not os.path.exists(article_path):
+        os.makedirs(article_path)
 
     for url in url_results:
-        article_path = "ai_news_json"
         article_json = parse_info(url)
 
         invalid_chars = r'\/:*?"<>|'
