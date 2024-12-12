@@ -1,5 +1,5 @@
 ### AI News Rag & Youtube Search Chatbot
-> 작업 완료일 : 2024/11/29
+> 작업 완료일 : 2024/12/12
 
 개요: AI 관련 뉴스를 크롤링하고 요약한 데이터와 YouTube Search API를 통합하여  
 사용자의 질문에 적합한 검색 방식을 선택적으로 활용하는 Agent 방식을 적용합니다.    
