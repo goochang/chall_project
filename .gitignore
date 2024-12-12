@@ -1,3 +1,5 @@
 .env
 SummaryChatbot/summerized_news_json/*
 SummaryChatbot/ai_news_json/*
+agent/summerized_news_json/*
+*.pyc

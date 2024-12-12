@@ -46,11 +46,6 @@ def get_ai_times(page):
         print(f"에러 발생: {e}")
         return ""
 
-def parse_url(html: str) -> List[Dict]:
-    """
-    HTML에서 기사를 파싱하는 함수
-    """
-
 def parse_info(url: str) -> json:
     """
     HTML에서 기사를 파싱하는 함수
@@ -92,7 +87,6 @@ def parse_info(url: str) -> json:
 
 def main():
     print("<< AI 기사 가져오기 >>")
-    page = 1
     url_results = []
     # AI 기사
     for page in range(1,2):
