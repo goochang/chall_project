@@ -1,6 +1,6 @@
 ## 폴더 내부에 프로젝트별 Readme 파일이 따로 있습니다.
 
-### 1. AI News Rag Chatbot(Terminal)
+### 1. AI News Rag Chatbot
 > 작업 완료일 : 2024/11/29  
 - 개요: AI 관련 뉴스를 크롤링하여 요약한 뒤, Rag Chain 방식을 
   활용해 데이터를 저장하고 이를 Streamlit을 기반으로 챗봇을 구현.  
@@ -9,7 +9,7 @@
 - 활용 기술 : BeautifulSoup, FAISS, retriever, langchain, streamlit  
 - 크롤링 URL : https://www.aitimes.com/news/articleList.html  
 
-### 2. AI News Rag & Youtube Search Chatbot(Streamlit)
+### 2. AI News Rag & Youtube Search Chatbot
 > 작업 완료일 : 2024/11/29
 - 개요: AI 관련 뉴스를 크롤링하고 요약한 뒤, Rag Chain 방식을 활용해 데이터를 저장하고 이를 Streamlit을 기반으로 챗봇을 구현합니다.  
   또한, YouTube Search API와 통합하여 사용자의 질문에 적합한 검색 방식을 선택적으로 활용하는 Agent 방식을 적용합니다.  
