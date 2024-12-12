@@ -6,6 +6,7 @@
 
 이 프로젝트는 사용자의 질문에 따라 적절한 검색 수단을 선택(뉴스 데이터 또는 YouTube 검색 결과)하여  
 최적의 답변을 제공하는 시스템을 목표로 합니다.  
+![image](https://github.com/user-attachments/assets/9f89cc92-797b-4769-9044-758a1c17b459)
 
 - 크롤링 URL : https://www.aitimes.com/news/articleList.html  
 
