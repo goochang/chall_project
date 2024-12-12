@@ -18,7 +18,7 @@ pip install -r requirements.txt
 3. 로컬 구동
 python times_news.py
 python news_summerized.py
-python chatbot.py
+streamlit run chatbot.py
 ```
 
 ### 활용 기술
